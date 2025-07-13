@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    background-color: white;
 }
 .font-use{
     font-family: "Poppins", sans-serif;
@@ -168,4 +172,47 @@ rgb(255, 19, 111));
 .c3{
       background: linear-gradient(rgb(66, 137, 255),
 rgb(63, 7, 248));
+}
+.shoes{
+    margin-bottom: 30px;
+    max-width: 1150px;
+    margin: 0px auto;
+   
+}
+.whole-sec{
+    background-color:#f4f4f4;
+    height: 1486px;
+    width:100% ;
+}
+.shoes-display img{
+    width: 330px;
+    height: 202px;
+   
+
+
+}
+.shoes-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.shoes-display-1{
+   border: 2px solid salmon;
+   text-align: center;
+   height: 400px;
+   width: 360px;
+   background-color: white;
+}
+.manu-var{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.manu-var h1{
+    font-size: 36px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+    opacity: 0.9;
 }
