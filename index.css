@@ -198,11 +198,15 @@ rgb(63, 7, 248));
     gap: 20px;
 }
 .shoes-display-1{
-   border: 2px solid salmon;
    text-align: center;
-   height: 400px;
-   width: 360px;
+   height: 490px;
+   width: 380px;
    background-color: white;
+   border-radius: 10px;
+   padding: 0px 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.469);
+
+;
 }
 .manu-var{
     display: flex;
@@ -215,4 +219,25 @@ rgb(63, 7, 248));
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
     opacity: 0.9;
+   
+}
+.shoes-display-1 h3{
+    font-size: 24px;
+    padding: 20px;
+    font-family:  "Poppins", sans-serif;
+    opacity: 0.9;
+
+}
+.shoes-display-1 p{
+    font-size: 16px;
+    opacity: 0.9;
+
+}
+.shoes-display-1 button{
+    padding: 10px 15px;
+    background-color:black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+   
 }
