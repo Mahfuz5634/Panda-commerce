@@ -110,3 +110,62 @@ nav ul li a{
     color: white;
     margin-top: 10px;
 }
+.cate{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    margin-bottom: 60px;
+    height: 300px;
+}
+    
+
+.categories{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   justify-content: space-between;
+}
+.cat1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 350px;
+   height: 110px;
+   justify-content: space-between;
+   background-color: blueviolet;
+   border-radius: 15px;
+   padding: 0px 40px;
+   border: 0px;
+
+}
+.cat1 img{
+    height: 95px;
+    width: 75px;
+}
+.heading-cate{
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+.cat1 h1{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 600;
+
+
+}
+.c1{
+   background: linear-gradient(rgb(255, 156, 53), rgb(255, 208, 25));
+}
+.c2{
+    background: linear-gradient( rgb(255, 88, 155),
+rgb(255, 19, 111));
+}
+.c3{
+      background: linear-gradient(rgb(66, 137, 255),
+rgb(63, 7, 248));
+}
